@@ -1,9 +1,9 @@
-# age=int(input("Enter your age:"))
+age=int(input("Enter your age:"))
 
-# if age>=18:
-#     print("you can drive")
-# else:
-#     print("you con not drive")
+if age>=18:
+    print("you can drive")
+else:
+    print("you con not drive")
 
 
 #check leap year or not

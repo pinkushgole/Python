@@ -1,4 +1,4 @@
-#print("hello")
+print("hello")
 
 """this is first python programm
 """
