@@ -16,6 +16,6 @@ mydoubler = myfunc(2)
 print(mydoubler(11))
 
 def app(fx,value):
-  return 10*fx(value)
+  return fx(value)
 
 print(app(double,12))
