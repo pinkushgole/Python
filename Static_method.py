@@ -18,11 +18,11 @@ class MyClass:
         self.value = value
 
     @staticmethod
-    def max_value(x, y):
-        return max(x, y)
+    def max_value():
+        print("this is static method")
     
 obj = MyClass(10)
 
-print(MyClass.max_value(20, 30))  
+MyClass.max_value()  
 
-print(obj.max_value(20, 30)) 
+obj.max_value()

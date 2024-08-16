@@ -5,7 +5,7 @@ class Student:
         self._roll=roll
     
     def __str__(self):
-        return f"name : {self._name} ,Collage Name :{self.Collage_Name} , roll No : {self._roll}"
+        return f"name : {self._name} ,Collage Name :{Student.Collage_Name} , roll No : {self._roll}"
  
 st=Student("hitesh",1)
 

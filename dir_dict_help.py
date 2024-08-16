@@ -11,4 +11,4 @@ class Person:
 p=Person("Raja",12)
 print(p.__dict__)
 
-print(help(Person))
+# print(help(Person))

@@ -1,19 +1,19 @@
 
-# class Company:
-#     comapny_name="apple"
+class Company:
+    comapny_name="apple"
 
-#     def show(self):
-#         print(f"Person name : {self.name} and company name: {self.comapny_name}")
-#     @classmethod
-#     def change_com_name(cls,cname):
-#         cls.comapny_name=cname
+    def show(self):
+        print(f"Person name : {self.name} and company name: {Company.comapny_name}")
+    @classmethod
+    def change_com_name(cls,cname):
+        cls.comapny_name=cname
 
-# c=Company()
-# c.name="pinkush"
-# c.show()
-# c.change_com_name("google")
-# c.show()
-# print(Company.comapny_name)
+c=Company()
+c.name="pinkush"
+c.show()
+c.change_com_name("google")
+c.show()
+print(Company.comapny_name)
 
 
 #  class methods as a alternative constructors (data directly nhi diya jayega ki dusre form me hoga to usko change karke apne according pass karna )
