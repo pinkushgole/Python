@@ -1,35 +1,35 @@
 
-# list=[1,3,5,7,4,2]
-# myit=iter(list)
+list=[1,3,5,7,4,2]
+myit=iter(list)
 
-# print(next(myit))
+print(next(myit))
 
-# print(next(myit))
+print(next(myit))
 
-# print(next(myit))
+print(next(myit))
 
-# print(next(myit))
+print(next(myit))
 
-# print(next(myit))
+print(next(myit))
 
-# print(next(myit))
-# print(next(myit))
+print(next(myit))
+print(next(myit))
 
 
 # Strings are also iterable objects, containing a sequence of character
-# str="my name is pinkush"
-# it_str=iter(str)
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
-# print(next(it_str))
+str="my name is pinkush"
+it_str=iter(str)
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
+print(next(it_str))
 
 
 # Create an iterator that returns numbers, starting with 1, and each sequence will increase by one (returning 1,2,3,4,5 etc.):
